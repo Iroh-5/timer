@@ -7,7 +7,7 @@ template <typename Stream>
 class Timer
 {
 public:
-	Timer() = delete;
+	Timer() = delete; // default constructor is deleted
 
 	Timer(Stream& _str, const char* _name)
 		: prcName { _name }, str { _str }

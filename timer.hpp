@@ -30,7 +30,7 @@ public:
 	}
 private:
 	Stream& str;
-	time_point<std::chrono::high_resolution_clock> m_StartPoint;
+	time_point<high_resolution_clock> m_StartPoint;
 	const char* prcName;
 };
 
